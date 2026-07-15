@@ -1,0 +1,23 @@
+{
+ "name": "경북대 IB글로벌교육센터 사무도구",
+ "short_name": "IB센터",
+ "description": "품의서·회의록·출장·계약 등 IB센터 통합 사무도구",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f4f6fa",
+ "theme_color": "#1f4e79",
+ "lang": "ko",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}
