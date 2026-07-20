@@ -1,5 +1,5 @@
 // 자동 생성(_build_mobile.py) — 콘텐츠 해시로 버전링
-const CACHE = 'ibhub-610ac89065';
+const CACHE = 'ibhub-5d2b4c7f63';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', e => {
   // cache:'reload' — 설치 프리캐시가 브라우저 HTTP 캐시(Pages max-age=600)의 옛 파일을 줍지 않도록 강제 재요청
