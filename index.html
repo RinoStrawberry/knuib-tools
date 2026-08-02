@@ -147,7 +147,7 @@
 </head>
 <body>
 <div id="__jsWarn" style="background:#fdecea;color:#c0392b;border:2px solid #c0392b;border-radius:10px;margin:14px;padding:14px 16px;font-size:14px;font-weight:700;line-height:1.6">
-  ❌ JavaScript가 실행되지 않았습니다 — 지금 화면은 브라우저가 아닌 '미리보기(뷰어)'입니다.<br>
+  JavaScript가 실행되지 않았습니다 — 지금 화면은 브라우저가 아닌 '미리보기(뷰어)'입니다.<br>
   <span style="font-weight:500;font-size:12.5px">이 상태에서는 아이콘을 눌러도 도구가 열리지 않습니다. (아이폰: 카톡·파일 앱에서 바로 열면 미리보기로 열립니다 — 함께 보낸 '모바일진단.html' 안내를 확인하세요)</span>
 </div>
 <script>
@@ -159,7 +159,7 @@ window.addEventListener('error',function(e){
   if(!b){b=document.createElement('div');b.id='__errBar';
     b.style.cssText='position:fixed;left:8px;right:8px;bottom:8px;z-index:9999;background:#c0392b;color:#fff;padding:10px 14px;border-radius:10px;font-size:12px;line-height:1.5;box-shadow:0 4px 14px rgba(0,0,0,.3)';
     document.body.appendChild(b);}
-  b.textContent='⚠️ 스크립트 오류 '+window.__errs.length+'건: '+window.__errs[window.__errs.length-1];
+  b.textContent='스크립트 오류 '+window.__errs.length+'건: '+window.__errs[window.__errs.length-1];
 });
 </script>
 <header>
@@ -543,7 +543,7 @@ function b64ToHtml(b64){
 if(typeof HUB==='undefined'){
   var w=document.getElementById('__jsWarn');
   if(w){w.style.display='block';
-    w.innerHTML='❌ 도구 스크립트를 불러오지 못했습니다.<br><span style="font-weight:500;font-size:12.5px">파일이 손상됐거나 이 브라우저가 대용량 스크립트를 중단했습니다.'+(window.__errs&&window.__errs.length?' 첫 오류: '+window.__errs[0]:'')+'</span>';}
+    w.innerHTML='도구 스크립트를 불러오지 못했습니다.<br><span style="font-weight:500;font-size:12.5px">파일이 손상됐거나 이 브라우저가 대용량 스크립트를 중단했습니다.'+(window.__errs&&window.__errs.length?' 첫 오류: '+window.__errs[0]:'')+'</span>';}
 }
 </script>
 <script>
